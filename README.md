@@ -39,6 +39,8 @@ __GET__
 8.	**Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
 **JSON** significa __JavaScript Object Notation__ y como el nombre dice, es un tipo de notación (no necesariamente un tipo de archivo) para el intercambio de información. La idea es que sea facil de generar y entender. Los "objetos" de JSON son pares de **parámetro:valor** y el valor puede ser un dígito, número, string o un tipo de dato más complicado como un array u otro objeto, o cualquier combinación de los anteriores.
 Un ejemplo de un JSON básico para un safari:
+
+```
 {
     "Estado": "abierto",
     "Clientes": 9,
@@ -61,6 +63,7 @@ Un ejemplo de un JSON básico para un safari:
         }
     ]
 }
+```
 
 Por otro lado **XML** significa __Extensible Markup Language__ y es una forma de estandarizar y estructurar información de forma que sea fácil de compartir.
 
