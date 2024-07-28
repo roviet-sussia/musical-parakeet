@@ -116,6 +116,7 @@ Los **headers** de un __request__ son espececificaciones hechas por el cliente e
 
 **3.**
 ![alt text](image-3.png)
+
 La diferencia: el contenido de mi POST ahora aparece en el GET.
 
 
