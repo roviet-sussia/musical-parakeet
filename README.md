@@ -64,6 +64,7 @@ Un ejemplo de un JSON básico para un safari:
 
 Por otro lado **XML** significa __Extensible Markup Language__ y es una forma de estandarizar y estructurar información de forma que sea fácil de compartir.
 
+```
 <safari>
     <estado> abierto </estado>
     <clientes> 9 </clientes>
@@ -90,6 +91,7 @@ Por otro lado **XML** significa __Extensible Markup Language__ y es una forma de
         
     </animales>
 </safari>
+```
 
 9.	**Explicar brevemente el estándar SOAP.**
 El estándar **SOAP** __(Simple Object Access Protocol)__ es un protocolo de intercambio de información que usa HTTP para el intercambio de mensajes a través de documentos XML.
