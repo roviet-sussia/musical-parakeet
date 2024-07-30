@@ -1,6 +1,6 @@
 # special-broccoli
 
-Repositorio para la resolución de algunos ejercicios
+Repositorio para la resolución de algunos ejercicios.
 
 ### Ejercicio 1: 
 **Instalar Visual Studio Code, Git y Git Bash**
@@ -110,16 +110,16 @@ Los **headers** de un __request__ son espececificaciones hechas por el cliente e
 
 GET:
 
-![alt text](image.png)
+![alt text](resources/image.png)
 
 
 POST:
 
-![alt text](image-2.png)
+![alt text](resources/image-2.png)
 
 GET:
 
-![alt text](image-3.png)
+![alt text](resources/image-3.png)
 
 La diferencia: el contenido de mi POST ahora aparece en el GET.
 
@@ -240,6 +240,50 @@ La diferencia: el contenido de mi POST ahora aparece en el GET.
     - Texto
     - etc.
 
-![alt text](image-4.png)
+![alt text](resources/image-4.png)
 
+
+*** Ejercicio 6 ***
+
+**Soluciones de Salesforce**
+    A. Es una plataforma virtual que permite tener varios entornos relacionados a una empresa en un mismo lugar, y tenerlos fácilmente conectados. Sea ventas, servicios al cliente, marketing, operaciones comerciales o base de datos, todos pueden estar integrados dentro de Salesforce.
+    B. Una plataforma de Salesforce que da seguimiento al proceso de ventas, desde contacto inicial hasta la compra del producto.
+    C. Es una plataforma de Salesforce centrada en empresas que ofrecen servicios: sirve para agilizar la atención al cliente y para recursos de autoayuda en caso de que el usuario tenga dudas, además de conectarlo con otros usuarios.
+    D. Es una plataforma de Salesforce especializada en sistemas de salud. Permite conectar a los profesionales de la salud entre ellos y con los clientes, facilitando y automatizando procesos relacionados.
+    E. Es una plataforma de Salesforce para automatizar campañas de marketing.
+
+**Funcionalidades de Salesforce**
+    A. RecordType es una forma de identificar diferentes tipos de un mismo objeto. Es como el polimorfismo. Es decir, varios objetos pueden ser **animales**, pero algunos además son **aves**, otros **mamiferos** y otros **reptiles**.
+    B. ReportType es una forma de separar diferentes tipos de reportes. Los reportes son información y data sobre algo. Los varios tipos de reportes estándar se adecúan a diferentes tipos de información normalmente recopilada. También hay RecordTypes custom.
+    C. Los PageLayouts son las vistas que tienen los usuarios, y determinan qué pueden ver y editar en un Record.
+    D. Un **CompactLayout** es la configuración que determina los campos que se ven imediatamente cuando se abre un Record.
+    E. Es la configuración que se asigna a un usuario cuando se crea.
+    F. Los roles determinan a qué Records tienen acceso cada usuario.
+    G. Es un verificador que se asegura de que la información que ingresa un usuario es acorde a los estándares especificados.
+    H. Las diferencias son varias. Por ejemplo: a diferencia de las **Lookup**, las **Master-Detail** requieren que exista el campo padre si o si. En otro caso, el hijo no puede existir; el hijo hereda la seguridad del padre. Un objeto solo puede tener hasta dos objetos padres (a diferencia de las lookup con 40 o 25 depende de si el objeto es o no custom). También las **Master-Detail** tienen accesso a los rollup summaries y las **Lookup** no.
+    I. Un **Sandbox** es una copia de tu organización en un entorno separado que se puede usar para entrenamientos y testeos, etc.
+    J. Un **Change Set** es una herramiento para migrar metadata de un entorno de Salesforce a otro.
+    K. El **Import Wizard** es una herramienta para importar data desde Salesforce. Hasta 50000 records a la vez.
+    L. **Web to Lead** es una funcionalidad que permite conseguir información de la gente que visita una página web y automáticamente guardar ésta información como un Lead dentro de Salesforce.
+    M. **Web to Case** es una funcionalidad que permite el seguimiento de problemas de clientes, servicios y soportes desde mails o una página web directo de Salesforce.
+    N. **Omnichannel** es una funcionalidad que permite integrar la información de mails, llamadas de teléfono y otros medios de atención al cliente para proveer la mejor atención posible.
+    O. **Chatter** es una herramiento de Salesforce que permite colaborar entre varios usuarios. Funciona como una red social de los empleados de una organización. 
+
+**Conceptos Generales**
+    A. **SaaS**, _Software as Service_, es la venta de software por subscripción, hosteado en la nube, en vez de una compra de una vez que requiere instalación.
+    B. Algunas partes de Salesforce son SaaS, otras no. Su producto base, la plataforma CRM (_Customer Relationship Management_) se considera SaaS.
+    C. **Cloud** significa que la solución (sea un software, aplicación, información) está en un servidor a parte, perteneciente a la misma empresa que proporciona la solución o al de un tercero, en vez de en la computadora del cliente.
+    D. **On-Premise** es la contrario de Cloud, es decir, en la computadora, casa u oficina del cliente.
+    E. **Sales Pipeline** es una forma de estructurar y organizar potenciales ventas y administrar y visualizar como progresan por sus diferentes etapas.
+    F. Un **Sales Funnel** es el proceso que posibles clientes tienen que hacer para concretar su compra. Está definido en etapas y establece qué debe hacer la compañía en cada etapa para asegurar que esta se complete y se haga la venta.
+    G. La **Customer Experience** es, como el nombre lo dice, la experiencia del cliente con un producto o servicio, incluída la venta, el ciclo de vida del producto, el soporte, etc.
+    H. El **Omnichannel** es una estrategia de comercio que pretende dar una experiencia al consumidor buena, integrando todos los posibles canales: sea en una página web, mails, teléfono, mensajes, etc.
+    I. **B2B** significa _Business to Business_, es decir, transacciones entre dos empresas. Por ejemplo, para materia prima, servicios o reventas.
+       **B2C** significa _Business to Consumer_, es decir, la venta de un producto de la empresa que lo hace directamente al cliente.
+       **KPI** significa _Key Performance Indicator_, y son basicamente mediciones o valores cuantificables que permiten evaluar el rendimiento de la empresa a largo plazo.
+    J. **API**, _Application Programming Interface_, es una forma de un software para proveerle un servicio a otro software. **REST APIs**, a diferencia de una **API** normal, se conecta a través del protocolo HTTP.
+    K. El **Batch Processing** es un método para procesar un alto volumen de data de forma más eficiente, automáticamente.
+    L. **Kanban** se puede referir al método de manufactura (el original) o el adaptado a desarrollo de software. En el caso del de software, es un método que permite reducir cuellos de botella administrando los recursos humanos de forma en que trabajen de forma más eficiente en relación a las prioridades.
+    M. **ERP**, _Enterprise Resource Planning_, es un tipo de software que se usa para administrar acitvidades diarias en una empresa. Como finanzas, manejo de proyectos y riesgos, etc.
+    N. No. Salesforce no es un ERP.
 
